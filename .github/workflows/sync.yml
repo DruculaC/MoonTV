@@ -2,7 +2,7 @@ name: Upstream Sync
 
 on:
   schedule:
-    - cron: "0 0 1 */3 *" # run every 3 months
+    - cron: "31 9 15 */3 *" # run every 3 months
   workflow_dispatch:
 
 permissions:
